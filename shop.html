@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop all — NŪRA Skin</title>
+<meta name="description" content="Eight fragrance-free formulas. Filter by skin concern, product type or skin type.">
+<meta name="theme-color" content="#f3ede0">
+<link rel="canonical" href="https://nura.example/shop.html">
+<meta property="og:url" content="https://nura.example/shop.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"NURA Skin","url":"https://nura.example/","logo":"https://nura.example/assets/img/favicon.svg","description":"Fragrance-free clinical skincare with published active percentages."}</script>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<script>document.documentElement.className += " js";</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+  <section class="phead">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Shop</span></nav>
+      <h1 class="display">The collection</h1>
+      <p class="lede phead__d" data-rv>Eight formulas, no fillers. Every product is fragrance free, vegan, and dosed at the percentage printed on the front.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="toolbar" data-rv="fade">
+      <div class="chips" role="group" aria-label="Filter by category" id="f-type"></div>
+      <div style="display:flex;align-items:center;gap:18px">
+        <span class="toolbar__count" id="count" aria-live="polite"></span>
+        <label class="sr-only" for="sort">Sort by</label>
+        <select class="select" id="sort">
+          <option value="featured">Sort: Featured</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="rating">Top rated</option>
+          <option value="name">A–Z</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="chips mt-s" role="group" aria-label="Filter by skin concern" id="f-concern" data-rv="fade"></div>
+    <div class="chips mt-s" role="group" aria-label="Filter by skin type" id="f-skin" data-rv="fade"></div>
+    <div class="chips mt-s" data-rv="fade">
+      <button class="chip chip--toggle" type="button" id="f-stock" aria-pressed="false">In stock only</button>
+    </div>
+  </div>
+
+  <section class="section-sm">
+    <div class="wrap">
+      <h2 class="sr-only">All products</h2>
+      <div class="grid-products" id="grid" data-stagger="0.05"></div>
+      <div class="shop-empty" id="empty" hidden>
+        <p class="display" style="font-size:28px;margin-bottom:10px">Nothing matches that combination.</p>
+        <p style="font-size:13px;margin-bottom:20px">Try removing a filter, or let the routine builder choose for you.</p>
+        <a class="btn btn-ghost" href="routine.html">Build my routine</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONCERN JUMPS ===================== -->
+  <section class="section-sm bg-cream">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow" data-rv>Shop by concern</p>
+          <h2 class="display sec-head__t mt-s" data-rv style="--d:.06s">Start where it bothers you.</h2>
+        </div>
+        <p class="sec-head__d" data-rv style="--d:.12s">Every formula is tagged with the concerns it targets, so you can narrow the shelf fast.</p>
+      </div>
+      <div class="assay" id="concern-grid" data-stagger="0.05"></div>
+    </div>
+  </section>
+
+  <div class="news-mount"></div>
+</main>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/compare.js"></script>
+<script src="assets/js/shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* print styles — the routine reads as a prescription on paper */
+@media print {
+  .hdr, .ftr, .news, .mnav, .scrim, .drawer, .cmp-tray, .toast, .skip,
+  .ledger, .sticky-buy { display: none !important; }
+  body { background: #fff; color: #000; }
+  body::after { display: none; }
+  main > *:not(#routine-builder-section) { display: none !important; }
+  #routine-builder-section { padding: 0 !important; }
+  .builder { display: block; }
+  .builder > :first-child { display: none !important; }
+  .summary,
+  .cart-sum { position: static !important; border: 1px solid #000; box-shadow: none; }
+  .summary__row img { display: none; }
+  .summary__tot div:last-child { border-top: 1px solid #000; }
+  a[href]::after { content: ""; }
+}

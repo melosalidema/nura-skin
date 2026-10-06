@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test artifacts
+tools/tests/shots/
+__pycache__/
+*.pyc
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

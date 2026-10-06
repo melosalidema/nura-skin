@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Night Bloom Masque — view 1">
+<defs>
+  <linearGradient id="bdnight-bloom-masque" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#E7DED2"/><stop offset=".72" stop-color="#D5C6B2"/>
+    <stop offset="1" stop-color="#CABCA9"/>
+  </linearGradient>
+  <radialGradient id="poolnight-bloom-masque" cx=".32" cy=".16" r=".85">
+    <stop offset="0" stop-color="#F4F0EB" stop-opacity=".85"/>
+    <stop offset=".55" stop-color="#F4F0EB" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="vignight-bloom-masque" cx=".5" cy=".46" r=".8">
+    <stop offset=".6" stop-color="#4A3B2C" stop-opacity="0"/>
+    <stop offset="1" stop-color="#4A3B2C" stop-opacity=".12"/>
+  </radialGradient>
+  <filter id="grainnight-bloom-masque" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="11" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".05"/></feComponentTransfer>
+  </filter>
+</defs>
+<rect width="800" height="1000" fill="url(#bdnight-bloom-masque)"/>
+<rect width="800" height="1000" fill="url(#poolnight-bloom-masque)"/>
+<rect width="800" height="1000" fill="url(#vignight-bloom-masque)"/>
+<defs>
+  <linearGradient id="matnight-bloom-masque" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8F7172"/>
+    <stop offset=".28" stop-color="#663E3F"/>
+    <stop offset=".62" stop-color="#55282A"/>
+    <stop offset="1" stop-color="#35191A"/>
+  </linearGradient>
+  <linearGradient id="capnight-bloom-masque" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#66746B"/>
+    <stop offset=".3" stop-color="#314438"/>
+    <stop offset=".7" stop-color="#24382B"/>
+    <stop offset="1" stop-color="#19271E"/>
+  </linearGradient>
+  <linearGradient id="lidnight-bloom-masque" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7E6365"/>
+    <stop offset=".3" stop-color="#522D30"/>
+    <stop offset=".7" stop-color="#472023"/>
+    <stop offset="1" stop-color="#321618"/>
+  </linearGradient>
+  <filter id="softnight-bloom-masque" x="-80%" y="-40%" width="260%" height="180%">
+    <feGaussianBlur stdDeviation="9"/>
+  </filter>
+</defs>
+<g>
+<g transform="translate(400.0 792) scale(1.2) translate(-400.0 -792)"><defs>
+  <filter id="ambnight-bloom-masque" x="-80%" y="-260%" width="260%" height="620%">
+    <feGaussianBlur stdDeviation="22"/>
+  </filter>
+  <filter id="connight-bloom-masque" x="-80%" y="-260%" width="260%" height="620%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+</defs>
+<ellipse cx="416" cy="804" rx="196" ry="27"
+         fill="#5B4C3B" opacity=".22" filter="url(#ambnight-bloom-masque)"/>
+<ellipse cx="403" cy="795" rx="152" ry="10"
+         fill="#463A2C" opacity=".34" filter="url(#connight-bloom-masque)"/>
+  <ellipse cx="400" cy="784" rx="158" ry="26" fill="#462122"/>
+  <rect x="242" y="572" width="316" height="196" rx="20" fill="url(#matnight-bloom-masque)"/>
+  <rect x="242" y="572" width="316" height="196" rx="20" fill="none" stroke="#000" stroke-opacity=".10"/><rect x="258" y="586" width="20" height="160" rx="10.0" fill="#FFFFFF" opacity="0.28" filter="url(#softnight-bloom-masque)"/>
+  <rect x="235" y="468" width="330" height="112" rx="20" fill="url(#lidnight-bloom-masque)"/>
+  <ellipse cx="400" cy="474" rx="159" ry="17" fill="#6F5153"/>
+  <rect x="235" y="562" width="330" height="12" rx="6" fill="#000" opacity=".18"/><rect x="253" y="476" width="18" height="96" rx="9.0" fill="#FFFFFF" opacity="0.26" filter="url(#softnight-bloom-masque)"/>
+  <rect x="278" y="592" width="244" height="172" rx="8" fill="#421E20"/>
+  <rect x="278" y="592" width="244" height="172" rx="8" fill="none" stroke="#000" stroke-opacity=".07"/>
+  <text x="400" y="618" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="20"
+        letter-spacing=".34em" fill="#F2EBDC" font-weight="500">N&#362;RA</text>
+  <text x="400" y="671" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="13.5" letter-spacing=".2em" fill="#F2EBDC">NIGHT BLOOM</text>
+  <text x="400" y="689" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="13.5" letter-spacing=".2em" fill="#F2EBDC">MASQUE</text>
+  <text x="400" y="724" text-anchor="middle" font-family="Georgia,'Times New Roman',serif"
+        font-size="16" letter-spacing=".08em" font-weight="500" fill="#F2EBDC">PAPAIN 2%</text>
+  <text x="400" y="750" text-anchor="middle" font-family="Georgia,'Times New Roman',serif"
+        font-size="11" letter-spacing=".26em" fill="#F2EBDC" opacity=".62">75 ML</text></g>
+</g>
+<rect width="800" height="1000" filter="url(#grainnight-bloom-masque)" opacity=".5" style="mix-blend-mode:multiply"/>
+</svg>

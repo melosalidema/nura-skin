@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Routine builder — NŪRA Skin</title>
+<meta name="description" content="Answer three questions and we will build a sequenced skincare routine with 15% off the bundle.">
+<meta name="theme-color" content="#f3ede0">
+<link rel="canonical" href="https://nura.example/routine.html">
+<meta property="og:url" content="https://nura.example/routine.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"NURA Skin","url":"https://nura.example/","logo":"https://nura.example/assets/img/favicon.svg","description":"Fragrance-free clinical skincare with published active percentages."}</script>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/print.css" media="print">
+<script>document.documentElement.className += " js";</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+  <section class="phead">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Routine builder</span></nav>
+      <h1 class="display">Your routine,<br>sequenced.</h1>
+      <p class="lede phead__d" data-rv>Three questions. We assemble the steps in the right order, explain why each one is there, and take 15% off the whole bundle.</p>
+    </div>
+  </section>
+
+  <section id="routine-builder-section" style="padding-bottom:clamp(60px,9vw,130px)">
+    <div class="wrap">
+      <div class="builder">
+        <div>
+          <ol class="steps" id="steps" aria-label="Progress"></ol>
+          <div id="panels"></div>
+        </div>
+
+        <aside class="summary" aria-live="polite">
+          <div class="summary__h"><b>Your routine</b><span class="summary__save" id="save-tag"></span></div>
+          <div class="summary__list" id="sum-list"></div>
+          <div class="summary__tot" id="sum-tot"></div>
+          <div id="sum-actions"></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="section-sm bg-cream">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow" data-rv>The logic</p>
+          <h2 class="display sec-head__t mt-s" data-rv style="--d:.06s">Thinnest to thickest, always.</h2>
+        </div>
+        <p class="sec-head__d" data-rv style="--d:.12s">Layering in the wrong order is the most common reason a good routine does nothing.</p>
+      </div>
+      <div class="benefits" data-stagger="0.07">
+        <div class="benefit"><h3>01 · Cleanse</h3><p>Water-based first, then oil, then balm. Cleansing is the only step where order genuinely matters.</p></div>
+        <div class="benefit"><h3>02 · Treat</h3><p>Lightest serums first, thinnest to densest. Give each one 30 seconds to settle before the next.</p></div>
+        <div class="benefit"><h3>03 · Hydrate</h3><p>Anything meant to hold water in the skin: hyaluronic serum, then a ceramide cream.</p></div>
+        <div class="benefit"><h3>04 · Protect</h3><p>SPF last, every morning, always. It is the only step that prevents rather than repairs.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STACKS ===================== -->
+  <section class="section-sm">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow" data-rv>Or skip the questions</p>
+          <h2 class="display sec-head__t mt-s" data-rv style="--d:.06s">Ready-made stacks.</h2>
+        </div>
+        <p class="sec-head__d" data-rv style="--d:.12s">The same bundle pricing, curated by us. <a class="link-u" href="shop.html">Browse the collection</a></p>
+      </div>
+      <div class="grid-products grid-4" id="stacks" data-stagger="0.08"></div>
+    </div>
+  </section>
+
+  <div class="news-mount"></div>
+</main>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/compare.js"></script>
+<script src="assets/js/routine.js"></script>
+</body>
+</html>

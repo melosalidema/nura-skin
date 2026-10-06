@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://nura.example/</loc><priority>1.0</priority></url>
+  <url><loc>https://nura.example/shop.html</loc><priority>0.9</priority></url>
+  <url><loc>https://nura.example/routine.html</loc><priority>0.9</priority></url>
+  <url><loc>https://nura.example/compare.html</loc><priority>0.6</priority></url>
+  <url><loc>https://nura.example/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/ingredients.html</loc><priority>0.7</priority></url>
+  <url><loc>https://nura.example/methodology.html</loc><priority>0.6</priority></url>
+  <url><loc>https://nura.example/concern.html?c=dehydration</loc><priority>0.7</priority></url>
+  <url><loc>https://nura.example/concern.html?c=fine-lines</loc><priority>0.7</priority></url>
+  <url><loc>https://nura.example/concern.html?c=pigmentation</loc><priority>0.7</priority></url>
+  <url><loc>https://nura.example/concern.html?c=texture</loc><priority>0.7</priority></url>
+  <url><loc>https://nura.example/concern.html?c=sensitivity</loc><priority>0.7</priority></url>
+  <url><loc>https://nura.example/concern.html?c=dullness</loc><priority>0.7</priority></url>
+  <url><loc>https://nura.example/product.html?id=cloudmilk-cleanser</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/product.html?id=dewdrop-serum</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/product.html?id=radiance-ritual</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/product.html?id=barrier-balm</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/product.html?id=pure-shield-spf</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/product.html?id=golden-hour-oil</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/product.html?id=clarity-toner</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/product.html?id=night-bloom-masque</loc><priority>0.8</priority></url>
+  <url><loc>https://nura.example/info.html?p=shipping</loc><priority>0.4</priority></url>
+  <url><loc>https://nura.example/info.html?p=faq</loc><priority>0.5</priority></url>
+  <url><loc>https://nura.example/info.html?p=journal</loc><priority>0.6</priority></url>
+</urlset>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Dewdrop Hydra Serum — view 1">
+<defs>
+  <linearGradient id="bddewdrop-serum" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#EDE4D3"/><stop offset=".72" stop-color="#DECEB4"/>
+    <stop offset="1" stop-color="#D3C4AB"/>
+  </linearGradient>
+  <radialGradient id="pooldewdrop-serum" cx=".32" cy=".16" r=".85">
+    <stop offset="0" stop-color="#F7F3EB" stop-opacity=".85"/>
+    <stop offset=".55" stop-color="#F7F3EB" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="vigdewdrop-serum" cx=".5" cy=".46" r=".8">
+    <stop offset=".6" stop-color="#4A3B2C" stop-opacity="0"/>
+    <stop offset="1" stop-color="#4A3B2C" stop-opacity=".12"/>
+  </radialGradient>
+  <filter id="graindewdrop-serum" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="11" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".05"/></feComponentTransfer>
+  </filter>
+</defs>
+<rect width="800" height="1000" fill="url(#bddewdrop-serum)"/>
+<rect width="800" height="1000" fill="url(#pooldewdrop-serum)"/>
+<rect width="800" height="1000" fill="url(#vigdewdrop-serum)"/>
+<defs>
+  <linearGradient id="matdewdrop-serum" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#CBA77D"/>
+    <stop offset=".28" stop-color="#B8874E"/>
+    <stop offset=".62" stop-color="#B07A3A"/>
+    <stop offset="1" stop-color="#6D4C24"/>
+  </linearGradient>
+  <linearGradient id="capdewdrop-serum" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#66746B"/>
+    <stop offset=".3" stop-color="#314438"/>
+    <stop offset=".7" stop-color="#24382B"/>
+    <stop offset="1" stop-color="#19271E"/>
+  </linearGradient>
+  <linearGradient id="liddewdrop-serum" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#66746B"/>
+    <stop offset=".3" stop-color="#314438"/>
+    <stop offset=".7" stop-color="#24382B"/>
+    <stop offset="1" stop-color="#19271E"/>
+  </linearGradient>
+  <filter id="softdewdrop-serum" x="-80%" y="-40%" width="260%" height="180%">
+    <feGaussianBlur stdDeviation="9"/>
+  </filter>
+</defs>
+<g>
+<g transform="translate(400.0 792) scale(1.2) translate(-400.0 -792)"><defs>
+  <filter id="ambdewdrop-serum" x="-80%" y="-260%" width="260%" height="620%">
+    <feGaussianBlur stdDeviation="22"/>
+  </filter>
+  <filter id="condewdrop-serum" x="-80%" y="-260%" width="260%" height="620%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+</defs>
+<ellipse cx="413" cy="804" rx="166" ry="23"
+         fill="#5B4C3B" opacity=".22" filter="url(#ambdewdrop-serum)"/>
+<ellipse cx="403" cy="795" rx="129" ry="10"
+         fill="#463A2C" opacity=".34" filter="url(#condewdrop-serum)"/>
+  <rect x="348" y="426" width="104" height="68" fill="url(#matdewdrop-serum)"/>
+  <rect x="387" y="464" width="26" height="167" rx="12" fill="#FFFFFF" opacity=".16"/>
+  <rect x="395" y="464" width="10" height="148" rx="5" fill="#FFFFFF" opacity=".22"/>
+  <rect x="266" y="470" width="268" height="322" rx="34" fill="url(#matdewdrop-serum)"/>
+  <rect x="266" y="470" width="268" height="322" rx="34" fill="none" stroke="#000" stroke-opacity=".10"/><rect x="282" y="496" width="20" height="212" rx="10.0" fill="#FFFFFF" opacity="0.3" filter="url(#softdewdrop-serum)"/><rect x="490" y="530" width="9" height="145" rx="4.5" fill="#FFFFFF" opacity="0.16" filter="url(#softdewdrop-serum)"/><rect x="306" y="492" width="184" height="16" rx="8.0" fill="#FFFFFF" opacity="0.28" filter="url(#softdewdrop-serum)"/>
+  <rect x="339" y="304" width="121" height="132" rx="13" fill="url(#capdewdrop-serum)"/>
+  <rect x="339" y="304" width="121" height="50" rx="13" fill="#FFFFFF" opacity=".07"/>
+  <rect x="339" y="426" width="121" height="10" rx="13" fill="#000000" opacity=".22"/>
+  <rect x="292" y="599" width="216" height="174" rx="8" fill="#8A5C27"/>
+  <rect x="292" y="599" width="216" height="174" rx="8" fill="none" stroke="#000" stroke-opacity=".07"/>
+  <text x="400" y="625" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="20"
+        letter-spacing=".34em" fill="#F6EEE2" font-weight="500">N&#362;RA</text>
+  <text x="400" y="679" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="13.5" letter-spacing=".2em" fill="#F6EEE2">DEWDROP</text>
+  <text x="400" y="696" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="13.5" letter-spacing=".2em" fill="#F6EEE2">HYDRA SERUM</text>
+  <text x="400" y="733" text-anchor="middle" font-family="Georgia,'Times New Roman',serif"
+        font-size="16" letter-spacing=".08em" font-weight="500" fill="#F6EEE2">HA 2%</text>
+  <text x="400" y="759" text-anchor="middle" font-family="Georgia,'Times New Roman',serif"
+        font-size="11" letter-spacing=".26em" fill="#F6EEE2" opacity=".62">30 ML</text></g>
+</g>
+<rect width="800" height="1000" filter="url(#graindewdrop-serum)" opacity=".5" style="mix-blend-mode:multiply"/>
+</svg>
